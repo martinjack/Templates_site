@@ -1,0 +1,176 @@
+@font-face{
+	font-family: 'wolfintheBold';
+	src: url(../fonts/wolfintheBold.otf);
+}
+@font-face{
+	font-family: 'Lato-Medium';
+	src: url(../fonts/Lato-Medium.ttf);
+}
+@font-face{
+	font-family: 'Lato-Bold';
+	src: url(../fonts/Lato-Bold.ttf);
+}
+body{
+	position: relative;
+}
+.logo{
+	font-family: 'wolfintheBold';
+	font-size: 80px;
+	color: #28b470;
+}
+.logo-block{
+	width: 50%;
+	text-align: center;
+}
+.logo-block a:hover{
+	opacity: 0.5;
+}
+.nav-link{
+	font-family: 'Lato-Medium';
+	font-size: 14px;
+}
+.nav-link:hover{
+	color: #28b470!important;
+}
+/*BLOCK - 1*/
+#block-1{
+	background: #000000;
+	width: 100%;
+	height: auto;
+	padding-bottom: 160px;
+}
+.block1-logo{
+	font-family: 'wolfintheBold';
+	font-size: 100px;
+	color: #ffffff;
+}
+.block1-text1{
+	font-family: 'Lato-Bold';
+	font-size: 50px;
+	color: #ffffff;
+}
+.block1-text2{
+	font-family: 'Lato-Bold';
+	font-size: 20px;
+	color: #ffffff;
+}
+.btn-ticket{
+	cursor: pointer;
+	margin-top: 60px;
+	font-family: 'Lato-Bold';
+	font-size: 14px;
+	background: #28b470;
+	color: #ffffff;
+	height: 50px;
+	width: 180px;
+}
+.btn-ticket:hover{
+	opacity: 0.5;
+}
+/*BLOCK - 2*/	
+#block-2{
+	background: #28b470;
+	height: auto;
+	width: 100%;
+}
+#block-2 .row{
+	padding: 35px 0px 35px 0px;
+}
+/*ICONS*/
+.n-c:before{
+	content: url(../img/north_carolina.png);
+}
+.c{
+	content: url(../img/calendar.png);
+}
+.speak{
+	content: url(../img/speak.png);
+}
+.block-2-title{
+	font-family: 'Lato-Bold';
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.block-2-desc{
+	font-family: 'Lato-Bold';
+	font-size: 16px;
+	color: #ffffff;
+}
+/*BLOCK - 3*/
+#block-3{
+	background: #ffffff;
+	height: auto;
+	width: 100%;
+	padding: 105px 0px 95px 0px;
+}
+.block-3-header{
+	font-family: 'Lato-Bold';
+	font-size: 30px;
+	color: #555555;
+}
+.block-3-desc{
+	font-family: 'Lato-Medium';
+	font-size: 18px;
+	color: #cdcdcd;
+}
+.block-about{
+	margin-top: 60px;
+}
+.block-icons{
+	padding-top: 15px;
+}
+.block-icons-title{
+	display: flex;
+	align-items: center;
+	font-family: 'Lato-Bold';
+	font-size: 16px;
+	color: #666666;
+}
+.block-icons-title i{
+	padding-right: 15px;
+}
+.block-icons-desc{
+	font-family: 'Lato-Medium';
+	font-size: 16px;
+	color: #bfbfbf;
+}
+/*ICONS BLOCK-3*/
+.divider{
+	content: url(../img/divider.png);
+}
+.mac{
+	content: url(../img/mac.png);
+}
+.heart{
+	content: url(../img/heart.png);
+}
+.spon_fork{
+	content: url(../img/spon_fork.png);
+}
+.bed{
+	content: url(../img/bed.png);
+}
+#block-4{
+	background: #000000;
+	/*padding: ;*/
+	width: 100%;
+	height: auto;
+}
+.block-4-title{
+	font-family: 'Lato-Bold';
+	font-size: 55px;
+	color: #ffffff;
+	margin:0;
+}
+.block-4-sub{
+	font-family: 'Lato-Bold';
+	font-size: 20px;
+	color: #ffffff;
+	margin: -10px 0px 0px 0px;
+}
+.block-4-desc{
+	font-family: 'Lato-Medium';
+	font-size: 16px;
+	color: #ffffff;
+}
