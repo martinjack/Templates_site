@@ -1,7 +1,10 @@
 # Templates websites
+
 List ready templates websites
- 
+
 # 1. MintoAFreeMinimal
-https://github.com/martinjack/templates_site/tree/master/MintoAFreeMinimal
+Code: https://github.com/martinjack/templates_site/tree/master/MintoAFreeMinimal
+Preview: https://martinjack.github.io/Templates_site/MintoAFreeMinimal
 # 2. ProfessionalWebsiteTemplateleo
-https://github.com/martinjack/templates_site/tree/master/MintoAFreeMinimal
+Code: https://github.com/martinjack/templates_site/tree/master/ProfessionalWebsiteTemplateleo
+Preview: https://martinjack.github.io/Templates_site/ProfessionalWebsiteTemplateleo
