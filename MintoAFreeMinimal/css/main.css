@@ -1,0 +1,247 @@
+/*FONTS*/
+@font-face{
+	font-family: 'SegoeUI';
+	src: url(../fonts/segoeuil.ttf);
+}
+@font-face{
+	font-family: 'SegoeUIBold';
+	src: url(../fonts/segoe-ui-bold.ttf);
+}
+@font-face{
+	font-family: 'StRydeReqular';
+	src: url(../fonts/StRydeReqular.otf);
+}
+@font-face{
+	font-family: 'SofiaProLight';
+	src: url(../fonts/SofiaProLight.otf);
+}
+
+/*HEADER*/
+.logo-block{
+	width: 75%;
+	text-align: -webkit-center;
+	margin-top: 1.5em;
+}
+.logo{
+	content: url(../img/logo.png);
+}
+.navbar-nav li{
+	font-family: SegoeUI;
+	font-size: 19px;
+	padding-right: 50px;
+}
+.navbar-item a{
+	cursor: pointer;
+}
+.navbar-link img{
+	vertical-align: sub!important;
+}
+/*ICONS MENU*/
+.home, .about, .service, .contact{
+	vertical-align: sub;
+}
+.home{
+	content: url(../img/home.png);
+}
+.about{
+	content: url(../img/about.png);
+}
+.service{
+	content: url(../img/service.png);
+}
+.contact{
+	content: url(../img/contact.png);
+}
+/*SLIDER*/
+#body{
+	margin-top: 20px;
+}
+#body .slider-wrapper img{
+	position: relative;
+	width: 1020px;
+	height: 485px;
+}
+.text-slider{
+	position: absolute;
+	left:0; right:0;
+	top: 30%;
+}
+.text-slider h2{
+	font-family: StRydeReqular;
+	font-size: 117px;
+	color: #fff;
+	text-shadow: -4px 3px 2px #2d283a;
+}
+.text-slider p{
+	font-family: SofiaProLight;
+	font-size: 31px;
+	color: #fff;
+	text-shadow: -1px 2px 2px #2d283a;
+}
+.swiper-button-prev{
+	background-image: url(../img/prev.png);
+	left: 32px;
+}
+.swiper-button-next{
+	background-image: url(../img/next.png);
+	right: 32px;
+}
+/*TEXT*/
+.text-1{
+	border-top: 1px solid #bfbfbf;
+	border-bottom: 1px solid #bfbfbf;
+	margin: 30px 0px 30px 0px;
+}
+.text-1 p{
+	font-family: SegoeUI;
+	font-style: italic;
+	font-size: 23px;
+	padding: 20px 0px 20px 0px;
+}
+.text-1 span{
+	font-weight: bold;
+	color: #82699d;
+}
+.text-2{
+	margin: 0px 0px 55px 0px;
+}
+.text-2 .right{
+	padding-top: 52px;
+}
+.text-2 .right a{
+	font-family: SegoeUI;
+	font-style: italic;
+	font-size: 15px;
+	color: #959595;
+	float: right;
+	text-decoration: none;
+}
+.text-2 h2{
+	font-family: SegoeUIBold;
+	font-size: 31px;
+	color: #505051;
+}
+.text-2 p{
+	font-family: SegoeUI;
+	font-size: 15px;
+	color: #838383;
+}
+.text-2-img{
+	content: url(../img/text-2-img.png);
+}
+.arrow{
+	content: url(../img/arrow.png);
+}
+/*TEXT-3*/	
+.text-3{
+	margin: 0px 0px 44px 0px;
+}
+.text-3 p{
+	font-family: SeqoeUI;
+	font-size: 23px;
+	color: #000000;
+}
+.text-3 span{
+	font-family: SeqoeUI;
+	font-weight: bold;
+	font-size: 23px;
+}
+.text-3 .line{
+	background-image: url(../img/text-3-line.png);
+	background-repeat: no-repeat;
+	width:100%;
+	height: 6px;
+}
+.text-3 .col-lg-7{
+	padding-top: 15px;
+}
+/*TEXT-4*/
+.text-4{
+	margin: 0px 0px 60px 0px;
+}
+.text-4 div{
+	background: #f5f5f5;
+    /*line-height: 5;*/
+    border: 1px solid #e4e4e4;
+}
+/*SPONSORS ICON*/
+.spon1:before{
+	content: url(../img/spon1.jpg);
+}
+.spon2:before{
+	content: url(../img/spon2.jpg);
+}
+.spon3:before{
+	content: url(../img/spon3.jpg);
+}
+.spon4:before{
+	content: url(../img/spon4.jpg);
+}
+/*FOOTER*/
+#footer{
+	height: 75px; 
+	background-image: url(../img/img_footer.png);
+}
+#footer .container{
+	height: 100%;
+}
+#footer .row{
+    align-items: center;
+    min-height: 100%;
+}
+.copyright{
+	font-family: SegoeUI;
+	font-size: 15px;
+}
+.line-header{
+	position: absolute;
+	top:0; left:0; right:0;
+	background: #82699d;
+	z-index: 1;
+	height: 8px;
+}
+.line-footer{
+	bottom:0;left:0; right:0;
+	background: #82699d;
+	height: 8px;
+	z-index: 1;
+}
+.facebook:before{
+	content: url(../img/facebook.png);
+}
+.twitter:before{
+	content: url(../img/twitter.png);
+}
+@media(max-width: 992px){
+	.logo-block{
+		text-align: left;
+	}
+	.navbar-toggler{
+		margin-top: 2.2em;
+	}
+	#footer .row{
+		min-height: 0px;
+	}
+	.copyright, .socials{
+		text-align: center;
+	}
+	.text-2{
+		text-align: center;
+	}
+	.text-3 .col-lg-5{
+		text-align: center;
+	}
+}
+@media(max-width: 1200px){
+	.swiper-button-prev{
+		left: 0;
+	}
+	.swiper-button-next{
+		right: 0;
+	}
+}
+@media(max-width: 1150px){
+	.navbar-nav li{
+		padding-right: 10px;
+	}
+}
