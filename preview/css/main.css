@@ -2,6 +2,10 @@
 	font-family: 'Lato-Bold';
 	src: url(../fonts/Lato-Bold.ttf);
 }
+@font-face{
+	font-family: 'Arctic';
+	src: url(../fonts/Arctic.otf);
+}
 html, body{
 	background-image: url(../img/background.png);
 	padding: 10px;
@@ -13,5 +17,8 @@ h1{
 	text-shadow: -2px 1px 4px #928d8d;
 }
 h5, p{
-	font-family: 'Lato-Bold';
+	font-family: 'Arctic';
+}
+img{
+	margin-bottom: 1em;
 }
