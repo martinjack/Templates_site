@@ -26,6 +26,7 @@ h5, p{
 a{
 	width: 500px;
 	text-transform: uppercase;
+	border-radius: 0px;
 }
 .block{
 	width: 70%;
