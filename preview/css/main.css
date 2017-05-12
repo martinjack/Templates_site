@@ -16,9 +16,47 @@ h1{
 	color: #fff;
 	text-shadow: -2px 1px 4px #928d8d;
 }
+h3{
+	color: #fff;
+	text-shadow: -2px 1px 4px #928d8d;
+}
 h5, p{
 	font-family: 'Arctic';
 }
-img{
-	margin-bottom: 1em;
+a{
+	width: 500px;
+	text-transform: uppercase;
+}
+.block{
+	width: 70%;
+	margin: 0 auto;
+	position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.56);
+}
+.block:hover .overlay {
+  opacity: 1;
+}
+.btns{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+.swiper-container{
+	width: 100%;
+}
+.swiper-slide{
+	text-align: center;
 }
