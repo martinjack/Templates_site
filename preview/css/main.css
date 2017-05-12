@@ -54,9 +54,6 @@ a{
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 }
-.swiper-container{
-	width: 100%;
-}
 .swiper-slide{
 	text-align: center;
 }
