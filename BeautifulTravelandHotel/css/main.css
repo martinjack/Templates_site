@@ -1,0 +1,118 @@
+@font-face{
+	font-family: 'segoeuil';
+	src: url(../fonts/segoeuil.ttf);
+}
+@font-face{
+	font-family: 'segoeuib';
+	src: url(../fonts/segoeuib.ttf);
+}
+#header{
+	padding: 10px;
+}
+.logo:before{
+	content: url(../img/logo.png);
+}
+.logo-block{
+	width: 80%;
+	text-align: center;
+}
+.navbar-nav > li{
+	margin-right: 25px;
+	width: 100px;
+	text-align: center;
+}
+.nav-link:hover{
+	background: #36b1f7;
+	color: #fff!important;
+	border-radius: 5px;
+	box-shadow: 0px 0px 1px black;
+}/*BLOCK - 1*/
+#block-1{
+	position: relative;
+	background: url(../img/img-block1.png) no-repeat;
+	background-size: 100%;
+	height: auto;
+	padding: 170px 0px 160px 0px;
+}
+.block-1-title, .block-1-btn{
+	font-family: 'segoeuib';
+}
+.block-1-title{
+	font-size: 52px;
+	color: #ffffff;
+}
+.block-1-btn{
+	cursor: pointer;
+	font-size: 34px;
+	background: #3eb42c;
+	color: #ffffff;
+	border-radius: 5px;
+	text-shadow: 1px 1px 2px black;
+	box-shadow: 0px 0px 16px 0px #000000;
+}
+.block-1-btn:hover{
+	opacity: 0.7;
+}
+#over-image{
+	position: absolute;
+	width: 100%;
+}
+#over-image .row{
+	padding-top: 35px;
+}
+.block-over{
+	content: url(../img/block-1-over.png);
+}
+/*BLOCK - 2*/
+#block-2{
+	background: #ececec;
+	padding: 212px 0px 80px 0px;
+}
+.block-2-title, .block-2-img-title, #footer p{
+	font-family: 'segoeuil';
+}
+.block-2-title{
+	font-size: 26px;
+	color: #878585;
+}
+.block-2-img{
+	padding-top: 20px;
+}
+/*ICONS*/
+.planet{
+	content: url(../img/planet.png);
+}
+.cart{
+	content: url(../img/cart.png);
+}
+.camera{
+	content: url(../img/camera.png);
+}
+.search{
+	content: url(../img/search.png);
+}
+.block-2-img-title{
+	font-size: 20px;
+	color: #878585;
+}
+/*FOOTER*/
+#footer{
+	background: #414141;
+}
+#footer p{
+	font-size: 14px;
+	color: #ffffff;
+	display: inline-block;
+	vertical-align: sub;
+}
+@media(max-width: 992px){
+	.logo-block{
+		width: 10%;
+	}
+	.navbar-nav{
+		padding-top: 10px;
+	}
+	.navbar-nav > li{
+		width: 100%;
+	}
+}
