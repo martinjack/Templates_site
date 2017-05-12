@@ -12,3 +12,8 @@ Preview: https://martinjack.github.io/Templates_site/MintoAFreeMinimal
 Code: https://github.com/martinjack/templates_site/tree/master/ProfessionalWebsiteTemplateleo
 
 Preview: https://martinjack.github.io/Templates_site/ProfessionalWebsiteTemplateleo
+
+# 3. BeautifulTravelandHotel
+Code: https://github.com/martinjack/templates_site/tree/master/BeautifulTravelandHotel
+
+Preview: https://martinjack.github.io/Templates_site/BeautifulTravelandHotel
