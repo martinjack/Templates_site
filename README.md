@@ -17,3 +17,8 @@ Preview: https://martinjack.github.io/Templates_site/ProfessionalWebsiteTemplate
 Code: https://github.com/martinjack/templates_site/tree/master/BeautifulTravelandHotel
 
 Preview: https://martinjack.github.io/Templates_site/BeautifulTravelandHotel
+
+# 4. Agnecy_Landing_Page
+Code: https://github.com/martinjack/templates_site/tree/master/Agnecy_Landing_Page
+
+Preview: https://martinjack.github.io/Templates_site/Agnecy_Landing_Page
