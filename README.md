@@ -4,7 +4,8 @@ List ready templates websites
 
 All templates websites with psd-html-css.ru
 
-# View all templates https://martinjack.github.io/Templates_site/
+# View all templates 
+https://martinjack.github.io/Templates_site/
 
 # 1. MintoAFreeMinimal
 Code: https://github.com/martinjack/templates_site/tree/master/MintoAFreeMinimal
