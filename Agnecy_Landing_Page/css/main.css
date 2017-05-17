@@ -1,0 +1,366 @@
+@import 'fonts.css';
+/*HEADER*/
+body{
+	background: #f6f2f2;
+}
+#header, #header-screen{
+	/*padding: 20px 150px 0px 150px;*/
+}
+.navbar-collapse{
+	background: #313030;
+}
+.nav-item{
+	padding: 0px 15px 0px 15px;
+}
+.nav-item a{
+	padding: 30px 0px 30px 0px;
+	font-family: 'opensans_bold';
+	font-size: 14px;
+	color: #ffffff!important;
+	text-transform: uppercase;
+}
+.nav-item:hover{
+	background: #ff3f40;
+}
+/*PADDING SECTIONS*/
+#header-screen, #provide, #feature, #team, #subscribe, #touch{
+	padding: 100px 0px 100px 0px;
+}
+/**/
+.header-title{
+	font-family: 'OpenSans-ExtraBold';
+	font-size: 60px;
+	color: #000000;
+	text-transform: uppercase;
+}
+.header-sub{
+	font-family: 'OpenSans';
+	font-size: 16px;
+	color: #6f6d6d;
+}
+.btn-contact{
+	font-family: 'opensans_bold';
+	font-size: 18px;
+	background: #ff2d2d;
+	color: #ffffff;
+	width: 220px;
+	padding: 15px 0px 15px 0px;
+}
+/*PROVIDE*/
+#provide{
+	background: #ffffff;	
+}
+.provide-title{
+	font-family: 'opensans_bold';
+	font-size: 42px;
+	color: #585858;
+	text-transform: uppercase;
+}
+.provide-sub{
+	font-family: 'OpenSans';
+	font-size: 16px;
+	color: #000000;
+}
+.btn-learn{
+	cursor: pointer;
+	font-family: 'opensans_bold';
+	font-size: 18px;
+	background: transparent;
+	color: #ff0000;
+	box-shadow: 0px 0px 0px 2px #ff0000!important;
+	width: 230px;
+	padding: 15px 0px 15px 0px;
+}
+.btn-learn:hover{
+	opacity: 0.5;
+}
+/*ICONS*/
+.icon{
+	display: inline-block;
+}
+.settings, .pencil, .diamond, .truck, .divider, .twitter, .linked, .google, .facebook{
+	display: block;
+}
+.settings, .pencil, .diamond, .truck, .divider{
+	width: 41px;
+	height: 41px;
+}
+.twitter, .linked, .google, .facebook{
+	width: 33px;
+	height: 33px;
+}
+.settings{
+	background: url(../img/settings.png) no-repeat;
+}
+.pencil{
+	background: url(../img/pencil.png) no-repeat;
+}
+.diamond{
+	background: url(../img/diamond.png) no-repeat;
+}
+.truck{
+	background: url(../img/truck.png) no-repeat;
+	width: 44px;
+}
+.divider{
+	background: url(../img/divider.png) no-repeat;
+	width: 132px;
+	height: 3px;
+}
+.twitter{
+	background: url(../img/twitter.png) no-repeat;
+}
+.linked{
+	background: url(../img/linked.png) no-repeat;
+}
+.google{
+	background: url(../img/google.png) no-repeat;
+}
+.facebook{
+	background: url(../img/facebook.png) no-repeat
+}
+/**/
+.img-title{
+	font-family: 'OpenSans_semibold';
+	font-size: 24px;
+	color: #737373;
+}
+.img-sub{
+	font-family: 'OpenSans';
+	font-size: 16px;
+	color: #737373;
+}
+/*FEATURE*/
+#feature{
+	margin-top: 5px;
+	background: #ffffff;
+}
+.feature-title{
+	font-family: 'opensans_bold';
+	font-size: 42px;
+	color: #585858;
+	text-transform: uppercase;
+}
+.feature-sub{
+	font-family: 'OpenSans';
+	font-size: 16px;
+	color: #737373;
+}
+.feature-menu li{
+	display: inline;
+	margin-right: 60px;
+	font-family: 'OpenSans_semibold';
+	font-size: 23px;
+	color: #737373;
+	text-transform: uppercase;
+	list-style: none;
+}
+.feature-menu li:hover{
+	cursor: pointer;
+	color: #ff2d2d;
+}
+/*TEAM*/
+#team{
+	background: #ffffff;
+}
+.team-title{
+	font-family: 'opensans_bold';
+	font-size: 43px;
+	color: #585858;
+	text-transform: uppercase;
+}
+.team-sub{
+	font-family: 'OpenSans';
+	font-size: 16px;
+	color: #737373;
+}
+.photo-block{
+	margin-top: 60px;
+}
+.team-img{
+	position: relative;;
+	width: 300px;
+}
+.team-img img{
+	width: 100%;
+	height: auto;
+}
+.team-name{
+	font-family: 'OpenSans_semibold';
+	font-size: 30px;
+	color: #585858;
+	text-transform: uppercase;
+}
+.team-desc{
+	font-family: 'OpenSans';
+	font-size: 16px;
+	color: #737373;
+}
+.team-social{
+	padding: 20px 0px 60px 0px;
+}
+.team-social li{
+	display: inline;
+	margin-right: 30px;
+}
+.team-social li a{
+	font-family: 'OpenSans_italic';
+	font-size: 18px;
+	color: #585858!important;
+	text-decoration: none;
+}
+.team-social li a:hover{
+	color: #ff2d2d!important;
+}
+.list-photo{
+	padding: 0;
+}
+.list-photo{
+  	height: 150px;
+  	overflow: hidden;
+  	margin-right: 20px;
+}
+.list-photo img{
+	width: 100%;
+  	height: auto;
+}
+.overlay{
+	position: absolute;
+	bottom: 0;
+	width: 80%;
+	height: 20%;
+	background-color: rgba(0, 0, 0, 0.79);
+	transition: .5s ease;
+	opacity: 0;
+	font-family: 'OpenSans_semibold';
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ffffff;
+}
+.team-photo:hover .overlay{
+	opacity: 1;
+}
+/*SUBSCRIBE*/
+#subscribe{
+	background: #f5f0dd;
+}
+.subscribe-title{
+	font-family: 'opensans_bold';
+	font-size: 43px;
+	color: #585858;
+}
+.subscribe-sub{
+	font-family: 'OpenSans';
+	font-size: 16px;
+	color: #737373;
+}
+.subscribe-input{
+	padding: 20px 0px 20px 40px;
+}
+.btn-subscribe{
+	cursor: pointer;
+	background: #ff2d2d;
+	color: #ffffff;
+	font-family: 'opensans_bold';
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 18px 15px 18px 15px;
+}
+/*TOUCH*/	
+#touch{
+	background: #ffffff;
+}
+.touch-title{
+	font-family: 'opensans_bold';
+	font-size: 42px;
+	color: #585858;
+	text-transform: uppercase;
+}
+.touch-sub{
+	font-family: 'OpenSans';
+	font-size: 16px;
+	color: #737373;
+}
+.form-message{
+	margin-top: 60px;
+}
+.touch-input{
+	padding: 20px 0px 20px 40px;
+	background: #e5e5e5;
+	font-family: 'OpenSans';
+}
+.touch-text{
+	margin-top: 40px;
+	background: #e5e5e5;
+	padding: 30px 0px 0px 40px;
+	height: 20em;
+	font-family: 'OpenSans'
+}
+.touch-btn{
+	margin-top: 40px;
+	padding: 20px 0px 20px 0px;
+	font-family: 'opensans_bold';
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+	background: #ff3b3b;
+	cursor: pointer;
+}
+.contact{
+	background: #2d2d2d;
+	color: #e0e0e0;
+	padding: 140px 0px 140px 70px;
+}
+.contact-info{
+	font-family: 'opensans_bold';
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.contact-more{
+	font-family: 'OpenSans';
+	font-size: 16px;
+}
+/*FOOTER*/
+#footer{
+	background: #313030;
+	padding: 40px 0px 20px 0px;
+}
+.copyright{
+	font-family: 'OpenSans';
+	font-size: 16px;
+	color: #b8b8b8;
+}
+.share a{
+	margin-right: 15px;
+}
+@media(max-width: 992px){
+	.navbar-collapse{
+		margin-top: 50px;
+	}
+	#header-screen, #team, #touch{
+		text-align: center;
+	}
+	.feature-menu li{
+		margin-right: 15px;
+	}
+	.team-img{
+		margin: 0 auto;
+	}
+	.list-photo{
+		height: 100px;
+	}
+	.overlay{
+		height: 45%;
+		font-size: 15px;
+	}
+	.btn-subscribe, .touch-input, .contact{
+		margin-top: 15px;
+	}
+	.contact{
+		padding: 140px 0px 140px 0px;
+	}
+	.copyright, .share{
+		text-align: center;
+	}
+}
