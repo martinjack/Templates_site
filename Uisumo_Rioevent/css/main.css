@@ -175,7 +175,8 @@ body{
 	font-size: 30px;
 	color: #555555;
 }
-.block-5-btn button{
+.block-5-btn{
+	cursor: pointer;
 	width: 220px;
 	height: 50px;
 	border-radius:0px;
@@ -187,12 +188,14 @@ body{
 	background: transparent;
 	border: 1px solid #555555;
 }
+.block-5-btn:hover{
+	background: #28b470;
+	color: #fff;
+	border: 1px solid #28b470;
+}
 .block-5-divider{
 	padding: 25px;
 }
-/*.block-5-btn i{
-	margin-right: 15px;
-}*/
 /*BLOCK - 6*/
 #block-6{
 	background: #28b470; 
@@ -215,6 +218,7 @@ body{
 .icon{
 	display: inline-block;
 }
+.icon:hover{opacity: 0.5}
 .facebook, .linked, .twitter, .pinterest{
 	display: block;
 	width: 41px;
@@ -270,30 +274,35 @@ body{
 .block-7-divider{
 	padding: 25px;
 }
-/*#block-7 .col-xl-5{
-	padding: 10px;
-}*/
-/*.block-7-left{
+.standard{
 	border-right: 1px solid #d0d0d0;
 	border-bottom: 1px solid #d0d0d0;
-}*/
-.block-7-pric-left{
+}
+.premium {border-bottom: 1px solid #d0d0d0;}
+.gold {border-right: 1px solid #d0d0d0;}
+.type-package{
 	font-family: 'Lato-Bold';
 	font-size: 26px;
 	color: #28b470;
-	float:left;
 	padding-top: 15px;
 }
-.block-7-pric-right{
-	float:right;
+.price{
 	font-family: 'Lato-Medium';
 	font-size: 52px;
 	color: #555555;
+	text-align: right;
 }
 .dollar{
 	font-size: 18px;
 	vertical-align: super;
 }
+.desc-package{
+	font-family: 'Lato-Medium';
+	font-size: 16px;
+	color: #939292;
+	text-align: center;
+}
+
 /*BLOCK - 8*/	
 #block-8{
 	background: #f8f8f8;
@@ -393,7 +402,6 @@ body{
 .card-header a{
 	font-family: 'Lato-Bold';
 	font-size: 16px;
-	/*color: #666666!important;*/
 	text-transform: uppercase;
 	text-decoration: none;
 }
@@ -448,9 +456,55 @@ body{
 	font-size: 18px;
 	color: #999999;
 }
+.block-13-input input{
+	padding: 18px;
+	background: #f8f8f8;
+}
+.block-13-input label{
+	font-family: 'Lato-Bold';
+	font-size: 14px;
+	color: #555555;
+}
+.block-13-center{
+	padding-top: 30px;
+}
+.btn-direct{
+	cursor: pointer;
+	font-family: 'Lato-Bold';
+	font-size: 14px;
+	background: #28b470;
+	color: #ffffff;
+	padding: 20px;
+}
+.btn-direct:hover{
+	opacity: 0.8;
+}
+.radio-direct{
+	margin-bottom: 1.9rem;
+}
+.radio-direct input{
+	visibility: hidden;
+	position: absolute;
+}
+.radio-direct label {
+	cursor: pointer;
+	padding: 20px;
+	border: 1px solid #28b470;
+	color: #28b470;
+	border-radius: 3px;
+}
+.radio-direct input:checked + label{
+	background: #28b470;
+	color: #fff;
+}
+.block-13-text input{
+	height: 100%;
+	max-height: 100%;
+	background: #f8f8f8;
+}
 /*BLOCK - 14*/
-#block-14{
-	padding: 105px 0px 115px 0px;
+.map-first{
+	height: 330px;
 }
 /*BLOCK - 15*/
 #block-15{
@@ -468,6 +522,33 @@ body{
 	font-size: 18px;
 	color: #ffffff;
 }
+/*INPUT*/
+.firstName, .emailAddress, .phoneNumber{
+	border-radius: 0;
+	padding: 15px;
+	font-family: 'Lato-Medium';
+	font-size: 16px;
+}
+.selectPlan, .selectTickets{
+	width: 100%;
+	border-radius: 0;
+	margin-top: 30px;
+	height: calc(3.25em + 2px);
+	background: #fff;
+	cursor: pointer;
+}
+.arrow:before{
+	content: "\f0d7";
+    font-family: 'FontAwesome';
+    color: #fff;
+    padding: 15px 8px;
+    position: absolute;
+    right: 15px;
+    top: 30px;
+    background: #28b470;
+    width: 50px;
+    height: 54px;
+}
 /*BLOCK - 16*/
 #block-16{
 	background: #f5f5f5;
@@ -483,6 +564,46 @@ body{
 	font-family: 18px;
 	color: #999999;
 }
+.img-spons{
+	background: #fff;
+	border: 1px solid #dedede;
+	width: 100%;
+	height: 80px;
+	margin-right: 20px;
+	padding: 10px;
+}
+.swiper-control{
+	margin-top: 35px;
+}
+.btn-left{
+	margin-right: 10px;
+}
+.btn-left, .btn-right{
+	cursor: pointer;
+	background: #fff;
+	box-shadow: 0px 0px 0px 1px #cfcfcf;
+	border-radius: 0px;
+}
+.btn-left i, .btn-right i{
+	color: #cfcfcf;
+	font-size: 2em;
+}
+.btn-left:hover i, .btn-right:hover i{
+	color: #000;
+}
+/*ICONS*/
+.visa, .master-card{
+	display: block;
+	height: 100%;
+}
+.visa{
+	background: url(../img/visa.png) center center no-repeat;
+	background-size: contain;
+}
+.master-card{
+	background: url(../img/master_card.png) center center no-repeat;
+	background-size: contain;
+}
 /*BLOCK - 17*/	
 #block-17{
 	background: #28b470;
@@ -493,6 +614,17 @@ body{
 	font-style: 30px;
 	color: #ffffff;
 	text-transform: uppercase;
+}
+.input-subscribe{
+	padding: 15px;
+	font-family: 'Lato-Medium';
+	font-size: 16px;
+}
+.btn-subscribe{
+	background: #2c3e50;
+	color: #fff;
+	font-family: 'Lato-Medium';
+	font-size: 16px;
 }
 /*BLOCK - 18*/	
 #block-18{
@@ -508,6 +640,24 @@ body{
 	font-family: 'Lato-Medium';
 	font-size: 18px;
 	color: #999999;
+}
+.contact-block {padding: 0;}
+#block-contact{
+	padding: 45px 0px 40px 0px;
+	background: #28b470;
+}
+#block-contact p{
+	color: #fefefe;
+	font-family: 'Lato-Medium';
+	font-size: 15px;
+}
+#block-contact .info{
+	font-family: 'Lato-Bold';
+	font-size: 16px;
+}
+#map-contact{
+	width: 100%;
+	height: 315px;
 }
 .copyright{
 	font-family: 'Lato-Medium';
