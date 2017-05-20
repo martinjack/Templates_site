@@ -25,3 +25,8 @@ Preview: https://martinjack.github.io/Templates_site/BeautifulTravelandHotel
 Code: https://github.com/martinjack/templates_site/tree/master/Agnecy_Landing_Page
 
 Preview: https://martinjack.github.io/Templates_site/Agnecy_Landing_Page
+
+# 5. Uisumo_Rioevent
+Code: https://github.com/martinjack/templates_site/tree/master/Uisumo_Rioevent
+
+Preview: https://martinjack.github.io/Templates_site/Uisumo_Rioevent
