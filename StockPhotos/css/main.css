@@ -33,6 +33,9 @@
 .swiper-container{
 	width: 100%;
 }
+.swiper-slide{
+width: 100%;
+}
 .text-slide{
 	position: absolute;
 	top: 30%;
