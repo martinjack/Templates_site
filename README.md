@@ -30,3 +30,8 @@ Preview: https://martinjack.github.io/Templates_site/Agnecy_Landing_Page
 Code: https://github.com/martinjack/templates_site/tree/master/Uisumo_Rioevent
 
 Preview: https://martinjack.github.io/Templates_site/Uisumo_Rioevent
+
+# 6. StockPhotos
+Code: https://github.com/martinjack/templates_site/tree/master/StockPhotos
+
+Preview: https://martinjack.github.io/Templates_site/StockPhotos/
