@@ -3,8 +3,10 @@
 	position: relative;
 }
 #header{
-	background: rgba(105, 167, 181, 0.79);
+	background: rgba(105, 167, 181, 0.50);
 	padding-top: 5px;
+	position: absolute;
+	left: 0;right: 0;top: 0;
 	z-index: 5;
 }
 .logo-block{
@@ -24,6 +26,13 @@
 	font-family: 'segoeuil';
 	color: #8b8b8b!important;
 }
+#slider .container-fluid{
+	margin:0;
+	padding:0;
+}
+.swiper-container{
+	width: 100%;
+}
 .text-slide{
 	position: absolute;
 	top: 30%;
@@ -41,14 +50,16 @@
 	border-radius: 0;
 	padding: 15px;
 }
-.search{
+.icon-search:before{
+	font-family: 'FontAwesome';
+	content: '\f002';
 	position: absolute;
-	top: 100px;
 	right: -15px;
 	color: #dadada;
+	padding: 5px;
 	transition: color 0.4s ease;
 }
-.search:hover{cursor:pointer;color: #000;}
+.icon-search:hover:before{cursor:pointer;color: #000;}
 /*REGIT*/	
 #regit{
 	padding-top: 20px;
