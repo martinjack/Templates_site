@@ -1,0 +1,94 @@
+@import 'fonts.css';
+#header-block{
+	position: relative;
+}
+#header{
+	background: rgba(105, 167, 181, 0.79);
+	padding-top: 5px;
+	z-index: 5;
+}
+.logo-block{
+	width: 50%;
+	text-align: center;
+}
+.icon{display: inline-block;}
+.logo{
+	display: block;
+}
+.logo{
+	background: url(../img/logo.png) no-repeat;
+	width: 181px;
+	height: 28px;
+}
+.regit-title, .btn-regit, .category-title, .category-text a, .footer-title{
+	font-family: 'segoeuil';
+	color: #8b8b8b!important;
+}
+.text-slide{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	right: 0;
+	color: #fff;
+	font-family: 'segoeuil';
+	font-size: 27px;
+	width: 25%;
+}
+.text-slide p{
+	text-align: center;
+}
+.input-walking{
+	border-radius: 0;
+	padding: 15px;
+}
+.search{
+	position: absolute;
+	top: 100px;
+	right: -15px;
+	color: #dadada;
+	transition: color 0.4s ease;
+}
+.search:hover{cursor:pointer;color: #000;}
+/*REGIT*/	
+#regit{
+	padding-top: 20px;
+}
+.regit-title, .btn-regit{
+	font-size: 37px;
+}
+.btn-regit{
+	color: #fff!important;
+	background: #8fcddc;
+	border-radius: 0;
+	cursor: pointer;
+	padding: .5rem 2rem 1rem;
+}
+.btn-regit:hover{opacity: 0.7;}
+/*.CATEGORY*/	
+#category{
+	padding-bottom: 50px;
+}
+.category-title{
+	font-size: 23px;
+	font-weight: bold;
+}
+.category-text{text-align: left;}
+.category-text a{
+	font-size: 15px;
+	text-decoration: none;
+}
+.category-text a:hover{font-weight: bold;}
+/*FOOTER*/
+#footer{
+	background: #484242;
+	padding-top: 10px;
+}
+.footer-title{
+	font-size: 17px;
+	color: #bfbfbf!important;
+}
+@media (max-width: 992px){
+	#category p{
+		text-align: center;
+	}
+}
