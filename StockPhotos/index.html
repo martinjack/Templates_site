@@ -11,8 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-<section id="header-block">
-	<section id="header">
+<section id="header">
 		<div class="navbar navbar-toggleable-md navbar-light">
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false">
 			  <span class="navbar-toggler-icon"></span>
@@ -26,33 +25,36 @@
 				</ul>
 			</div>
 		</div>
-	</div>
 	</section>
-	<section id="slider">
-		<div class="swiper-container container-fluid">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide">
-					<div class="row">
-						<div class="col-xl-12">
+<div id="slider">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xl-12">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
 							<img src="img/img-slide.png" class="img-fluid" alt="img1"/>
 							<div class="text-slide">
 								<p>Photos, illustrations by creatives all over the world.</p>
-								<p>
+								<span class="icon-search">
+									<input type="text" class="form-control input-walking" placeholder="People walking">
+								</span>
+								<!-- <p>
 									<input type="text" class="form-control input-walking" placeholder="People walking">
 									<span class="search">
 										<i class="fa fa-search"></i>
 									</span>
-								</p>
+								</p> -->
 							</div>
 						</div>
 					</div>
+					<div class="swiper-button-prev swiper-button-white hidden-md-down"></div>
+					<div class="swiper-button-next swiper-button-white hidden-md-down"></div>
 				</div>
 			</div>
-			<!-- <div class="swiper-button-prev swiper-button-white"></div> -->
-			<!-- <div class="swiper-button-next swiper-button-white"></div> -->
 		</div>
-	</section>
-</section>
+	</div>
+</div>
 <section id="regit">
 	<div class="container">
 		<div class="row text-center">
