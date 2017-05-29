@@ -135,6 +135,9 @@
 	.navbar-nav{
 		text-align: center;
 	}
+	.block2, .block3{
+		padding-right: 50px;
+	}
 }
 @media(max-width: 767px){
 	.logo-block{
