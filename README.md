@@ -35,3 +35,8 @@ Preview: https://martinjack.github.io/Templates_site/Uisumo_Rioevent
 Code: https://github.com/martinjack/templates_site/tree/master/StockPhotos
 
 Preview: https://martinjack.github.io/Templates_site/StockPhotos/
+
+# 7. FlatStyleWeb
+Code: https://github.com/martinjack/templates_site/tree/master/FlatStyleWeb
+
+Preview: https://martinjack.github.io/Templates_site/FlatStyleWeb
