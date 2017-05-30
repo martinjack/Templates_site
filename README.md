@@ -40,3 +40,8 @@ Preview: https://martinjack.github.io/Templates_site/StockPhotos/
 Code: https://github.com/martinjack/templates_site/tree/master/FlatStyleWeb
 
 Preview: https://martinjack.github.io/Templates_site/FlatStyleWeb
+
+# 8. Resto
+Code: https://github.com/martinjack/templates_site/tree/master/Resto
+
+Preview: https://martinjack.github.io/Templates_site/Resto
