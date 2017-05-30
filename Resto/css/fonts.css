@@ -1,0 +1,20 @@
+@font-face{
+	font-family: 'Aleo-Regular';
+	src: url(../fonts/Aleo-Regular.otf);
+}
+@font-face{
+	font-family: 'Aleo-Bold';
+	src: url(../fonts/Aleo-Bold.otf);
+}
+@font-face{
+	font-family: 'Aleo-LightItalic';
+	src: url(../fonts/Aleo-LightItalic.otf);
+}
+@font-face{
+	font-family: 'Aleo-Light';
+	src: url(../fonts/Aleo-Light.otf);
+}
+@font-face{
+	font-family: 'WCManoNegraBta';
+	src: url(../fonts/WCManoNegraBta.otf);
+}

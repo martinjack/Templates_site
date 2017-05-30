@@ -1,0 +1,223 @@
+@import 'fonts.css';
+
+#header{
+	padding: 30px 0px 40px 0px;
+}
+.navbar-toggler{border-right: 0}
+.nav-item a{
+	font-family: 'Aleo-Bold';
+	font-size: 14px;
+	color: #9c9c9c!important;
+}
+.logo-block{
+	width: 30%;
+	text-align: center;
+}
+.logo{
+	display: block;
+	background: url(../img/logo.png) no-repeat;
+	width: 81px;
+	height: 30px;
+}
+/*BOARD HEADER*/
+#board-header{
+	display: block;
+	background: url(../img/img-board.png) no-repeat;
+	background-size: cover;
+	padding: 200px 0px 200px 0px;
+}
+.board-title{
+	font-family: 'WCManoNegraBta';
+	font-size: 100px;
+	color: #fff;
+}
+.board-desc{
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+.board-desc > span {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Aleo-Regular';
+    font-size: 16px;
+}
+.board-desc > span:before,
+.board-desc > span:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 1px;
+    background: #fff;
+}
+.board-desc > span:before {
+    right: 100%;
+    margin-right: 20px;
+}
+.board-desc > span:after {
+    left: 100%;
+    margin-left: 20px;
+}
+.label{border-top: 4px solid #f34949;}
+.label h4{
+	text-align: center;
+	font-family: 'Aleo-Bold';
+	color: #fff;
+	padding-top: 15px;
+}
+.label h4:after{
+	display: block;
+	background: url(../img/label.png) center no-repeat;
+	height: 75px;
+	margin-top: -45px;
+	content: '';
+}
+
+/*LIST*/
+#list{
+	padding: 60px 0px 0px 0px;
+}
+.lists{
+	list-style: none;
+}
+.lists > li{
+	margin-bottom: 60px;
+}
+.list-title{
+	font-family: 'Aleo-Bold';
+	font-size: 16px;
+	color: #555555;
+}
+.amount{
+	float: right;
+	font-family: 'Aleo-Regular';
+}
+.amount:before{
+	position: absolute;
+	content: '';
+	width: 13em;
+	height: 1px;
+	background: #e3e1e1;
+	left: 17em;
+	margin-top: 1em;
+
+}
+.list-desc{
+	position: absolute;
+	margin-top: -15px;
+	font-family: 'Aleo-LightItalic';
+	font-size: 12px;
+	color: #b7b7b7;
+}
+.btn-more{
+	background: transparent;
+	border: 1px solid #d7d5d5;
+	color: #b3b3b3;
+	font-family: 'Aleo-Bold';
+	font-size: 14px;
+	border-radius: 0;
+	width: 135px;
+	height: 40px;
+}
+.btn-more:hover{
+	cursor: pointer;
+	background: transparent;
+	opacity: 0.5;
+}
+.btn-more:focus{outline: 0;}
+.btn-more span{padding:10px;}
+/*DISHES*/
+#dishes{
+	padding: 170px 0px 0px 0px;
+}
+.dishes-title, .gallery-title{
+	font-family: 'Aleo-Bold';
+	font-size: 20px;
+	color: #3b3b3b;
+	margin-bottom: 75px;
+}
+.line{
+	content: '';
+	position: absolute;
+	width: 200px;
+	height: 1px;
+	background: #e3e1e1;
+	margin-left: 1em;
+	margin-top: 0.7em;
+}
+.swiper-pagination{
+	right: 0;
+	margin-top: -6.4em;
+}
+.swiper-pagination-bullet-active{background: #9b9b9b;}
+.swiper-pagination-bullet, .swiper-pagination-bullet-active{margin-right: 10px;}
+.img-dis-title{
+	font-family: 'Aleo-Light';
+	font-size: 16px;
+	font-weight: bold;
+	color: #555555;
+}
+.img-dis-title span{
+	float: right;
+}
+#rating{margin-top: -15px;}
+.fa-star{color:#f1df1a;}
+.fa-star-o{color: #dedede;}
+/*GALLERY*/
+#gallery{padding: 170px 0px 190px 0px;}
+#gallery .row [class*="-6"],
+#gallery .row [class*="-8"]{
+	padding-left: 0;
+	padding-right: 0;
+}
+#gallery img{width:100%;height:100%;}
+/*FOOTER*/
+#footer{
+	padding: 70px 0px 50px 0px;
+	background: #3b3b3b;
+}
+#footer ul > li{
+	list-style: none;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Aleo-Light';
+	margin-bottom: 15px;
+}
+#footer ul > li:first-child,
+#footer ul > li:last-child{font-family: 'Aleo-Bold';}
+#footer ul > li > a{
+	font-family: 'Aleo-Bold';
+	color: #fff!important;
+	text-decoration: none;
+}
+#footer ul > li > a:hover{opacity: 0.5;}
+#footer ul > li:last-child > span{font-family: 'Aleo-Light';}
+.logo-footer{
+	display: block;
+	background: url(../img/logo-footer.png) no-repeat;
+	height: 30px;	
+}
+@media(max-width: 1200px){
+	.amount:before{width: 37em;}
+}
+@media(max-width: 992px){
+	.navbar-nav{
+		text-align:center;
+	}
+	.amount:before{width: 22em;}
+}
+@media(max-width: 767px){
+	#gallery .row [class*="-6"],
+	#gallery .row [class*="-8"]{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.amount:before{width: 11em;}
+}
+@media(max-width: 575px){
+	.amount:before{width: 8em;}
+	#footer{text-align: center;}
+}
