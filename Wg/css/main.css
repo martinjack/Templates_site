@@ -1,0 +1,192 @@
+@import 'fonts.css';
+#header{
+	display: block;
+	background: url(../img/header.png) no-repeat;
+	background-size: cover;
+	padding: 60px 0px 240px 0px;
+}
+.logo{
+	display: block;
+	background: url(../img/logo.png) no-repeat;
+	width: 273px;
+	height: 273px;
+	margin: 0 auto;
+
+}
+.header-title{
+	font-family: 'OpenSans';
+	font-size: 49px;
+	color: #fff;
+	text-align: center;
+}
+.header-title span{
+	font-family: 'opensans_bold';
+	text-transform: uppercase;
+}
+/*ADS-BLOCKS*/	
+.ads{
+    position: absolute;
+    left: 50%;
+    margin-left: -185px;
+    display: block;
+    background: url(../img/abso.png) no-repeat;
+    width: 338px;
+    height: 338px;
+}
+/*BLOCKS*/
+#blocks{
+	padding: 175px 0px 102px 0px;
+	text-align: left;
+}
+.docs, .camera{
+	display: block;
+	margin: 0 auto;
+}
+.docs{
+	background: url(../img/doc.png) no-repeat;
+	width: 102px;
+	height: 127px;
+}
+.camera{
+	background: url(../img/camera.png) no-repeat;
+	width: 95px;
+	height: 121px;
+}
+.blocks-title{
+	font-family: 'OpenSans_semibold';
+	font-size: 27px;
+}
+.blocks-desc{
+	font-family: 'OpenSans';
+	font-size: 14px;
+	color: #4f4e4e;
+}
+/*IPAD*/
+#ipad{
+	display: block;
+	background: url(../img/info-back.png) no-repeat;
+	background-size: cover;
+	padding: 80px 0px 80px 0px;
+}
+.ipad-img{
+	display: table;
+	margin: 0 auto;
+}
+.ipad{
+	display: block;
+	background: url(../img/ipad.png) no-repeat;
+	position: absolute;
+	left:0;right:0;
+	top:0;bottom:0;
+	margin-left: 20%;
+}
+.ipad-title{margin-top: 5em;}
+.ipad-title, .notebook-title{
+	font-family: 'OpenSans_semibold';
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+}
+.ipad-desc{
+	font-family: 'OpenSans';
+	font-size: 14px;
+	color: #fff;
+}
+.notebook{
+	margin-top: 400px;
+}
+.img-notebook{
+	display: block;
+	background: url(../img/notebook.png) no-repeat;
+	background-size: cover;
+	background-position-x: -70px;
+	height: 400px;
+	position: absolute;
+	left: 0;right: 0;
+	bottom: -105px;
+}
+.notebook-title{text-align:left;}
+.btn-download{
+	margin-top: 35px;
+	background: transparent;
+	border: 3px solid #fff;
+	border-radius: 5px;
+	font-family: 'OpenSans_semibold';
+	font-size: 27px;
+	color: #fff;
+}
+.btn-download:hover{cursor: pointer;opacity: 0.8;}
+/*MAP*/
+#map{
+	position: relative;
+}
+#map .col-xl-12{padding:0;}
+#map-container{height: 600px;}
+#form-message{
+	position: absolute;
+	left:0;
+	right:0;
+	bottom:50px;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.72);
+	width: 435px;
+	height: 435px;
+	border-radius: 500px;
+}
+.input{
+	padding: 111px 80px 0px 80px;
+	text-align: center;
+}
+.input input, .input textarea{
+	margin-bottom: 13px;
+	color:#b9bbbe;
+	font-family: 'OpenSans';
+	font-size: 14px;
+	border-radius: 0;
+	padding: 10px;
+}
+.input textarea{height: 81px;resize: none;}
+.btn-send{
+	margin-top: 10px;
+	background: #43a06d;
+	padding: 25px;
+	border-radius: 500px;
+}
+.btn-send i{
+	font-size: 3em;
+	color: #fff;
+}
+.btn-send:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+/*FOOTER*/
+#footer{
+	background: #43a06d;
+	padding-top: 15px;
+}
+.footer-title{
+	font-family: 'OpenSans';
+	font-size: 14px;
+	color: #fff;
+}
+@media(max-width: 992px){
+	#blocks{
+		text-align: center;
+	}
+	#ipad{padding-bottom: 20px;}
+}
+@media(max-width: 768px){
+	#blocks, #ipad, .notebook-title{text-align: center;}
+	.img-notebook{background-size: inherit;}
+	.ipad{left: -13em;}
+	.img-notebook{
+		bottom: -180px;
+		left: 25px;
+	}
+}
+@media(max-width: 576px){
+	#blocks{
+		text-align: center;
+	}
+}
