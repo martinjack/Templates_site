@@ -94,6 +94,7 @@
 }
 .notebook{
 	margin-top: 400px;
+	overflow: hidden;
 }
 .img-notebook{
 	display: block;
@@ -104,6 +105,7 @@
 	position: absolute;
 	left: 0;right: 0;
 	bottom: -105px;
+	z-index: 1;
 }
 .notebook-title{text-align:left;}
 .btn-download{
@@ -119,6 +121,8 @@
 /*MAP*/
 #map{
 	position: relative;
+	z-index: 2;
+	background: #fff;
 }
 #map .col-xl-12{padding:0;}
 #map-container{height: 600px;}
