@@ -45,3 +45,9 @@ Preview: https://martinjack.github.io/Templates_site/FlatStyleWeb
 Code: https://github.com/martinjack/templates_site/tree/master/Resto
 
 Preview: https://martinjack.github.io/Templates_site/Resto
+
+# 9. Wg
+Code: https://github.com/martinjack/templates_site/tree/master/Wg
+
+Preview: https://martinjack.github.io/Templates_site/Wg
+
