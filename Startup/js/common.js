@@ -3,19 +3,19 @@ $(document).ready(function(){
         slidesPerView: 4,
         paginationClickable: true,
         spaceBetween: 30,
-        autoplay: 5000
+        autoplay: 5000,
+        breakpoints:{
+        	768:{slidesPerView: 1},
+        	992:{slidesPerView: 2},
+        	1200:{slidesPerView: 3}
+        },
+        nextButton: 'swiper-button-next',
+        prevButton: 'swiper-button-prev',
+        loop: true
     });
     var clienSwipe = new Swiper('.clients-swiper',{
     	pagination: '.swiper-pagination',
-    	autoplay: 5000
+    	autoplay: 5000,
+        loop: true
     });
-    $(window).resize(function(){
-        var ww = $(window).width();
-        if(ww > 1200) swiper.params.slidesPerView = 4;
-        if(ww < 1200) swiper.params.slidesPerView = 3;
-        if(ww < 992)  swiper.params.slidesPerView = 2;
-        if(ww < 768)  swiper.params.slidesPerView = 1;
-        swiper.update();
-    });
-    $(window).trigger('resize');
 });
