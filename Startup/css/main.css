@@ -132,6 +132,25 @@
 .socials > a:hover{
 	background: #c0301c;
 }
+.creator-title{
+	margin-top: 20px;
+	font-family: 'Monserrat-Bold';
+	font-size: 14px;
+	font-weight: bold;
+	color: #555555;
+	text-transform: uppercase;	
+}
+.creator-title > span{
+	font-family: 'RobotoSlab-Regular';
+	font-size: 13px;
+	font-weight: 100;
+	color: #555555;
+	text-transform: none;
+}
+.swiper-button-next,
+.swiper-button-prev{
+	top: 37%;
+}
 /*LATERWORKS*/	
 #laterworks{
 	padding: 96px 0px 96px 0px;
@@ -286,7 +305,6 @@
 }
 .img-fluid{margin-bottom: 35px;}
 hr{
-	/*margin-top: 35px;*/
 	margin-bottom: 35px;
 }
 #post-block .row:hover .title-post > p:nth-child(1),
